@@ -6,7 +6,7 @@ const {readOfficer} = require('../controller/officer')
 
 
 router.post('/submit',complainsubmit);
-router.get('list',getList);
+router.get('/list',getList);
 router.get('/read',readOfficer);
 
 router.post('/update',update)

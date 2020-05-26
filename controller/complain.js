@@ -84,7 +84,7 @@ exports.getList = (req,res)=>{
             })
         }
         res.json({
-            list
+            data
         })
     })
 }
